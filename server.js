@@ -1,5 +1,5 @@
 // server.js
-require('dotenv').config(); // MUST be at the top
+require('dotenv').config();
 
 const { ApolloServer, gql } = require('apollo-server');
 const mongoose = require('mongoose');
