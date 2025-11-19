@@ -3,7 +3,7 @@ require('dotenv').config();
 
 const { ApolloServer, gql } = require('apollo-server');
 const mongoose = require('mongoose');
-const User = require('./data'); // make sure this is your Mongoose model
+const User = require('./data');
 
 // ------------- TYPE DEFINITIONS -------------
 const typeDefs = gql`
